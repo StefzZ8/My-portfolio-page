@@ -1,0 +1,140 @@
+.container {
+    width: 100%;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+
+@media (min-width: 768px) {
+    .container {
+        margin: 0 auto;
+    }
+}
+
+// @media (min-width: 992px) {
+//     .container {
+//         min-width: 960px;
+//     }
+// }
+
+// @media (min-width: 1200px) {
+//     .container {
+//         min-width: 1140px;
+//     }
+// }
+
+// @media (min-width: 1400px) {
+//     .container {
+//         min-width: 550px;
+//     }
+// }
+
+.section__title h1 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 1.5;
+    font-family: "Permanent Marker", cursive;
+}
+
+.section__title.center {
+    text-align: center;
+}
+
+.skills-section {
+    // padding: 65px 0 140px;
+    position: relative;
+}
+
+.skills-section .skills-items {
+    margin-top: 30px;
+    // display: -webkit-box;
+    // display: -ms-flexbox;
+    display: flex;
+    // -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    // -webkit-box-pack: justify;
+    // -ms-flex-pack: justify;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.skills-item {
+    // -webkit-box-flex: 0;
+    // -ms-flex: 0 0 48%;
+    flex: 0 0 48%;
+    max-width: 48%;
+}
+
+.skills-info {
+    // display: -webkit-box;
+    // display: -ms-flexbox;
+    display: flex;
+    // -webkit-box-pack: justify;
+    // -ms-flex-pack: justify;
+    justify-content: space-between;
+    
+    p {
+        font-size: 16px;
+        line-height: 22px;
+        font-family: "Permanent Marker", cursive;
+        // -webkit-animation: showText 0.5s 1s linear forwards;
+        // animation: showText 0.5s 1s linear forwards;
+    }
+}
+
+
+.progress-line {
+    margin-top: 5px;
+    height: 10px;
+    width: 100%;
+    background-color: #DEEFE7;
+    border-radius: 50px;
+    position: relative;
+}
+
+.progress-line span {
+    // -webkit-transform: scaleX(0);
+    // transform: scaleX(0);
+    // -webkit-transform-origin: left;
+    // transform-origin: left;
+    // -webkit-animation: animate 1s cubic-bezier(1, 0, 0, 0.5, 1) forwards;
+    // animation: animate 1s cubic-bezier(1, 0, 0, 0.5, 1) forwards;
+    height: 100%;
+    border-radius: 50px;
+    position: absolute;
+    background-color: #159A9C;
+    // transition: 4s all;
+}
+
+// .progress-line span.animate {
+//     -webkit-animation: animate 1.5s 0.5s cubic-bezier(1, 0, 0.5, 1) forwards;
+//     animation: animate 1.5s 0.5s cubic-bezier(1, 0, 0.5, 1) forwards;
+// }
+
+// @-webkit-keyframes showText {
+//     100% {
+//         opacity: 1;
+//     }
+// }
+
+// @keyframes showText {
+//     100% {
+//         opacity: 1;
+//     }
+// }
+
+// @-webkit-keyframes animate {
+//     100% {
+//         -webkit-transform: scaleX(1);
+//         transform: scaleX(1);
+//     }
+// }
+
+// @keyframes animate {
+//     100% {
+//         -webkit-transform: scaleX(1);
+//         transform: scaleX(1);
+//     }
+// }
