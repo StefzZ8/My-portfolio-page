@@ -1,40 +1,60 @@
-import { Link, NavLink } from 'react-router-dom';
+// import { Link, NavLink } from 'react-router-dom';
+import { Link } from 'react-scroll';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faGithub, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons';
-import { faHome, faUser, faEnvelope,  faLaptopCode } from '@fortawesome/free-solid-svg-icons';
+import { faHome, faUser, faEnvelope, faLaptopCode } from '@fortawesome/free-solid-svg-icons';
 import LogoS from '../../assets/logo-s.svg'
 import './Sidebar.scss';
 
 const Sidebar = () => (
   <div className='nav-bar'>
-    <Link className='logo' to='/'>
+    <Link className='logo'
+      to='home'
+      spy={true}
+      smooth={true}
+      duration={300}>
       <img src={LogoS} />
     </Link>
     <nav>
-      <NavLink exact="true" activeclassname="active" to="/">
+      <Link
+        activeclass="active"
+        to='home'
+        spy={true}
+        smooth={true}
+        duration={500}
+      >
         <FontAwesomeIcon icon={faHome} color="#4d4d4e" />
-      </NavLink>
-      <NavLink
-        exact="true"
-        activeclassname="active"
+      </Link>
+      <Link
+        activeclass="active"
         className='about-link'
-        to="/about">
+        to='about'
+        spy={true}
+        smooth={true}
+        duration={500}
+      >
         <FontAwesomeIcon icon={faUser} color="#4d4d4e" />
-      </NavLink>
-      <NavLink
-        exact="true"
-        activeclassname="active"
+      </Link>
+      <Link
+        activeclass="active"
         className='projects-link'
-        to="/projects">
+        to='projects'
+        spy={true}
+        smooth={true}
+        duration={500}
+      >
         <FontAwesomeIcon icon={faLaptopCode} color="#4d4d4e" />
-      </NavLink>
-      <NavLink
-        exact="true"
-        activeclassname="active"
+      </Link>
+      <Link
+        activeclass="active"
         className='contact-link'
-        to="/contact">
+        to='contact'
+        spy={true}
+        smooth={true}
+        duration={500}
+      >
         <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" />
-      </NavLink>
+      </Link>
     </nav>
     <ul>
       <li>
