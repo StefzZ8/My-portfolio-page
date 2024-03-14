@@ -1,0 +1,62 @@
+.contact-page {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 10rem 0;
+}
+
+.contact__me-title {
+  color: #fff;
+  font-family: "Permanent Marker", cursive;
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+p {
+  font-family: "Permanent Marker", cursive;
+}
+
+.contact-form {
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+input[type='text'],
+input[type='email'],
+textarea {
+  width: 100%;
+  max-width: 25%;
+  margin: 0.5rem;
+  padding: 15px;
+  border-radius: 5px;
+  background: #B2BEBF;
+  font-size: 16px;
+  color: #000;
+}
+
+.submit-btn {
+  margin: 10px;
+  width: 100%;
+  max-width: 25%;
+  color: #CC8D1A;
+  font-size: 15px;
+  letter-spacing: 4px;
+  background: #1b1e1e;
+  padding: 10px 50px;
+  border: 2px solid #CC8D1A;
+  ;
+  border-radius: 10px;
+  font-family: "Permanent Marker", cursive;
+
+  &:hover {
+    background-color: #CC8D1A;
+    color: #1b1e1e;
+  }
+}
