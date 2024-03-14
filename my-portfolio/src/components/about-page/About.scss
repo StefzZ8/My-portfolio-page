@@ -1,0 +1,30 @@
+.about-page {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  padding: 12rem 0;
+
+  .text-zone {
+    width: 35%;
+    max-height: 90%;
+
+    h1 {
+      font-size: 53px;
+      font-weight: 400;
+      font-family: "Permanent Marker", cursive;
+      color: #fff;
+      margin-top: 0;
+      position: relative;
+      margin-bottom: 40px;
+      left: 10px;
+    }
+
+    p {
+      font-size: 14px;
+      color: #797979;
+      font-family: "Permanent Marker", cursive;
+      min-width: fit-content;
+    }
+  }
+}
