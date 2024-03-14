@@ -1,7 +1,9 @@
 body {
   margin: 0;
-  color: #180707;
-  background: #252929;
+  padding: 0;
+  color: #fff;
+  background: #1b1e1e;
   overflow: hidden;
-  display: block;
+  overflow-y: scroll;
+  box-sizing: border-box;
 }
