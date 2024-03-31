@@ -1,5 +1,6 @@
 import './Homepage.scss';
 import { Link } from 'react-scroll';
+import meImage from './../../assets/me.jpg';
 
 const Homepage = () => {
   return (
@@ -14,7 +15,7 @@ const Homepage = () => {
           CONTACT ME
         </Link>
       </div>
-      <img src="" alt="" />
+      {/* <img src={meImage} alt="" className='me-image' /> */}
     </section>
   )
 }

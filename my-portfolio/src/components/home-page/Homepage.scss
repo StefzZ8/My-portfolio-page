@@ -1,7 +1,16 @@
 #home {
   width: 100%;
-  max-width: 80rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   margin: 0 auto;
+  max-width: 80rem;
+}
+
+.me-image {
+  width: 800px;
+  height: 800px;
+  border-radius: 50%;
 }
 
 .home__page-section {

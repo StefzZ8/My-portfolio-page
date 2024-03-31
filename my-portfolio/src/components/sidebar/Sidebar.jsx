@@ -21,7 +21,7 @@ const Sidebar = () => (
         to='home'
         spy={true}
         smooth={true}
-        duration={500}
+        duration={800}
       >
         <FontAwesomeIcon icon={faHome} color="#4d4d4e" />
       </Link>
@@ -31,7 +31,7 @@ const Sidebar = () => (
         to='about'
         spy={true}
         smooth={true}
-        duration={500}
+        duration={800}
       >
         <FontAwesomeIcon icon={faUser} color="#4d4d4e" />
       </Link>
@@ -41,7 +41,7 @@ const Sidebar = () => (
         to='projects'
         spy={true}
         smooth={true}
-        duration={500}
+        duration={800}
       >
         <FontAwesomeIcon icon={faLaptopCode} color="#4d4d4e" />
       </Link>
@@ -51,7 +51,7 @@ const Sidebar = () => (
         to='contact'
         spy={true}
         smooth={true}
-        duration={500}
+        duration={800}
       >
         <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" />
       </Link>

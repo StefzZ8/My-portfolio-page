@@ -1,0 +1,86 @@
+#projects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    padding: 3rem 0;
+}
+
+.projects-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 50px;
+    grid-row-gap: 50px;
+}
+
+.petko {
+    width: 350px;
+    height: 180px;
+    margin: -23px 0;
+}
+
+.project__section-info {
+    width: 100%;
+    max-width: 350px;
+    word-break: break-word;
+    background-color: #2e2e2e;
+
+    h3 {
+        color: #fafafa;
+        font-family: "Kanit", sans-serif;
+        margin: 20px 12px;
+        font-weight: 500;
+    }
+
+    p {
+        color: #fff;
+        font-family: "Kanit", sans-serif;
+        margin: 15px;
+    }
+}
+
+
+img {
+    border-radius: 5px 5px 0 0;
+}
+
+.btns {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+
+    a {
+        text-decoration: none;
+    }
+
+    button {
+        display: flex;
+        align-items: center;
+        background: #1b1e1e;
+        border-radius: 20px;
+        border: none;
+        // border: 2px solid #F2AE30;
+        padding: 5px 20px;
+        color: #F2AE30;
+        font-family: "Permanent Marker", cursive;
+        font-size: 15px;
+
+        img {
+            margin: 10px;
+        }
+    }
+}
+
+
+.petko-k {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h1 {
+        font-family: "Permanent Marker", cursive;
+        font-size: 53px;
+        margin: 100px;
+    }
+}
