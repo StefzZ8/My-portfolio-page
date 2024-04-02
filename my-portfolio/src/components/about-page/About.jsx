@@ -12,9 +12,6 @@ const About = () => {
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque ipsa, possimus ut id magni cumque. Sunt qui vitae id harum architecto voluptatum. Blanditiis accusamus minus alias repellendus officia ad repellat!
         </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque ipsa, possimus ut id magni cumque. Sunt qui vitae id harum architecto voluptatum. Blanditiis accusamus minus alias repellendus officia ad repellat!
-        </p>
       </div>
       <Skills />
     </div>
