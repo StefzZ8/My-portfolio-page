@@ -1,0 +1,19 @@
+.project_title {
+  text-align: center;
+  font-family: "Permanent Marker", cursive;
+  font-size: 3rem;
+}
+
+.projects__allItems {
+  padding: 10rem;
+}
+
+@media screen and (max-width: 768px) {
+  .projects__allItems {
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 7rem;
+    gap: 7rem;
+  }
+}
