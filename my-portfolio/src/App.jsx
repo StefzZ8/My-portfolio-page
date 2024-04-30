@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
-import Sidebar from './components/sidebar/Sidebar';
-import Homepage from './components/home-page/Homepage';
-import Loader from './components/loader/Loader';
-import About from './components/about-page/About';
-import Projects from './components/projects-content/Projects';
-import ContactPage from './components/contact-page/ContactPage';
+import Sidebar from './components/Sidebar/Sidebar';
+import Homepage from './components/Home/Homepage';
+import Loader from './components/Loader/Loader';
+import About from './components/About/About';
+import Projects from './components/ProjectsContent/Projects';
+import ContactPage from './components/Contact/ContactPage';
 import './App.scss';
 
 
@@ -22,14 +22,15 @@ function App() {
     <>
       {isLoading && <Loader />}
       {!isLoading && (
-        <div className='app'>
-          <Sidebar />
-          <Homepage />
-          <About />
-          <Projects />
-          <ContactPage />
+        <div className="app">
+          <div className="sections">
+            <Sidebar />
+            <Homepage />
+            <About />
+            <Projects />
+            <ContactPage />
+          </div>
         </div>
-
       )}
     </>
   );
