@@ -1,0 +1,14 @@
+.app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sections {
+    scroll-snap-type: y mandatory;
+    // overflow-y: scroll;
+    overscroll-behavior: smooth;
+    height: 100vh;
+    width: 100%;
+}
