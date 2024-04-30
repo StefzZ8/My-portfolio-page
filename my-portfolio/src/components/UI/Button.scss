@@ -1,20 +1,20 @@
 .design-button {
-    color: #b91a1a;
-    background-color: transparent;
-    width: fit-content;
-    font-size: 1rem;
-    font-family: "Roboto Condensed", sans-serif;
-    letter-spacing: 4px;
-    text-decoration: none;
-    padding: 10px 20px;
-    border: 2px solid #b91a1a;
-    float: left;
-    white-space: nowrap;
-    font-family: "Permanent Marker", cursive;
+  color: #b91a1a;
+  background-color: transparent;
+  width: fit-content;
+  font-size: 1rem;
+  font-family: "Roboto Condensed", sans-serif;
+  letter-spacing: 4px;
+  text-decoration: none;
+  padding: 10px 20px;
+  border: 2px solid #b91a1a;
+  float: left;
+  white-space: nowrap;
+  font-family: "Permanent Marker", cursive;
 
-    &:hover {
-        background-color: #b91a1a;
-        color: #1b1e1e;
-        cursor: pointer;
-    }
+  &:hover {
+    background-color: #b91a1a;
+    color: #151616;
+    cursor: pointer;
+  }
 }
