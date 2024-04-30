@@ -3,7 +3,5 @@ body {
   padding: 0;
   color: #fff;
   background: #1b1e1e;
-  overflow: hidden;
-  overflow-y: scroll;
   box-sizing: border-box;
 }
