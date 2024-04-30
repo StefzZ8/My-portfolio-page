@@ -5,6 +5,7 @@ import { faHome, faUser, faEnvelope, faLaptopCode } from '@fortawesome/free-soli
 import LogoS from '../../assets/logo-s.svg'
 import './Sidebar.scss';
 
+
 const Sidebar = () => (
   <div className='nav-bar'>
     <Link className='logo'
