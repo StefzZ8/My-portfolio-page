@@ -25,7 +25,7 @@ const ContactPage = () => {
     <>
       <div id='contact' className='contact-page'>
         <h1 className='contact__me-title'>Contact Me</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p >
+        <p>Get in touch! Whether you have a project in mind or just want to say hello, I'd love to hear from you.</p >
         <form ref={form} onSubmit={sendEmail} className='contact-form'>
           <input
             type="text"
