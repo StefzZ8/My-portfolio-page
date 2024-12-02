@@ -1,4 +1,12 @@
 import './Skills.scss';
+import htmlIcon from '../../../assets/html.png';
+import cssIcon from '../../../assets/css.png';
+import jsIcon from '../../../assets/js.png';
+import reactIcon from '../../../assets/react.png';
+import sassIcon from '../../../assets/scss.svg';
+import gitIcon from '../../../assets/git.png';
+import githubIcon from '../../../assets/github.png';
+import canvaIcon from '../../../assets/canva.png';
 
 const Skills = () => {
   return (
@@ -8,67 +16,41 @@ const Skills = () => {
         <div className='section__title center'>
           <h1>My Skills</h1>
         </div>
-        <div className='skills-items'>
+        <div className='skill-items'>
 
-          <div className='skills-item'>
-            <div className='skills-info'>
-              <p>HTML</p>
-              <p>80%</p>
-            </div>
-            <div className='progress-line' data-percent='80%'>
-              <span style={{ width: '80%' }}></span>
-            </div>
-          </div>
+          <img
+            src={htmlIcon}
+            alt="Html"
+            width="100px" />
+          <img
+            src={cssIcon}
+            alt="Css"
+            width="100px" />
+          <img
+            src={jsIcon}
+            alt="JavaScript"
+            width="100px" />
+          <img
+            src={reactIcon}
+            alt="React"
+            width="100px" />
+          <img
+            src={sassIcon}
+            alt="Sass"
+            width="100px" />
+          <img
+            src={githubIcon}
+            alt="Git"
+            width="100px" />
+          <img
+            src={gitIcon}
+            alt="Github"
+            width="100px" />
+          <img
+            src={canvaIcon}
+            alt="Canva"
+            width="100px" />
 
-          <div className='skills-item'>
-            <div className='skills-info'>
-              <p>CSS & SASS</p>
-              <p>60%</p>
-            </div>
-            <div className='progress-line' data-percent='60%'>
-              <span style={{ width: '60%' }}></span>
-            </div>
-          </div>
-
-          <div className='skills-item'>
-            <div className='skills-info'>
-              <p>JavaScript</p>
-              <p>60%</p>
-            </div>
-            <div className='progress-line' data-percent='60%'>
-              <span style={{ width: '60%' }}></span>
-            </div>
-          </div>
-
-          <div className='skills-item'>
-            <div className='skills-info'>
-              <p>ReactJS</p>
-              <p>45%</p>
-            </div>
-            <div className='progress-line' data-percent='45%'>
-              <span style={{ width: '45%' }}></span>
-            </div>
-          </div>
-
-          <div className='skills-item'>
-            <div className='skills-info'>
-              <p>TypeScript</p>
-              <p>15%</p>
-            </div>
-            <div className='progress-line' data-percent='15%'>
-              <span style={{ width: '15%' }}></span>
-            </div>
-          </div>
-
-          <div className='skills-item'>
-            <div className='skills-info'>
-              <p>Canva</p>
-              <p>40%</p>
-            </div>
-            <div className='progress-line' data-percent='40%'>
-              <span style={{ width: '40%' }}></span>
-            </div>
-          </div>
         </div>
       </div>
     </section>

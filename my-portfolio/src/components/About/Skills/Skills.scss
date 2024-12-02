@@ -9,8 +9,7 @@
 
 .section__title h1 {
   font-weight: 700;
-  font-size: 30px;
-  line-height: 1.5;
+  font-size: 35px;
   font-family: "Permanent Marker", cursive;
 }
 
@@ -19,49 +18,22 @@
 }
 
 .skills-section {
-  position: relative;
   width: 100%;
-  max-width: 900px;
+  max-width: 1000px;
   margin-top: 25px;
 }
 
-.skills-section .skills-items {
-  margin-top: 30px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  gap: 20px;
+.skill-items {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin: 50px 0 0 100px;
+  cursor: pointer;
 }
 
-.skills-item {
-  flex: 0 0 48%;
-  max-width: 48%;
-}
-
-.skills-info {
-  display: flex;
-  justify-content: space-between;
-
-  p {
-    font-size: 16px;
-    line-height: 22px;
-    font-family: "Permanent Marker", cursive; // animation: showText 0.5s 1s linear forwards;
-  }
-}
-
-
-.progress-line {
-  margin-top: 8px;
-  height: 13px;
-  width: 100%;
-  background-color: #DEEFE7;
-  border-radius: 50px;
-  position: relative;
-}
-
-.progress-line span {
-  height: 100%;
-  border-radius: 50px;
-  position: absolute;
-  background-color: #159A9C;
+img:hover {
+  transition: 2s;
+  transform: scale(1.2);
 }
